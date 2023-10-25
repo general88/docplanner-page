@@ -1,0 +1,231 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+/* body {
+  width: 1200px;
+} */
+
+main {
+  display: grid;
+  place-items: center;
+  border: 1px solid black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding-inline: 150px;
+  gap: 500px;
+  /* padding: 0px 100px; */
+}
+header img {
+  width: 268px;
+  height: 33px;
+}
+
+#header {
+  display: flex;
+  gap: 20px;
+}
+#header a {
+  text-decoration: none;
+  font-size: 18px;
+  color: dimgrey;
+  cursor: pointer;
+}
+
+#header a:hover {
+  text-decoration: none;
+  font-size: 18px;
+  color: #00b39b;
+}
+
+/* Center Small Logo */
+.center-logo {
+  display: grid;
+  place-items: center;
+  padding-top: 100px;
+}
+#center-logo img {
+  height: 40px;
+  width: 40px;
+  align-content: center;
+  margin-bottom: 20px;
+}
+
+.center-logo p {
+  font-size: 35px;
+  color: #00b39b;
+  font-weight: 300;
+  padding-bottom: 40px;
+}
+
+/* Paragraph Text Styling */
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 750px;
+  gap: 20px;
+}
+
+.booking {
+  display: flex;
+  gap: 20px;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.patient {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #00b39b;
+  padding: 50px 50px 30px 50px;
+  height: 400px;
+  width: 360px;
+  border-radius: 20px;
+}
+
+.patient img {
+  height: 30px;
+}
+
+.patient h2 {
+  color: white;
+  font-size: 40px;
+}
+.patient p {
+  font-size: 22px;
+  color: white;
+}
+
+.patient > select {
+  border: 0;
+  font-size: 24px;
+  font-weight: 500px;
+  background-color: #00b39b;
+  color: white;
+}
+.doctor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: royalblue;
+  padding: 50px 50px 30px 50px;
+  height: 400px;
+  width: 340px;
+  border-radius: 20px;
+}
+
+.doctor img {
+  height: 30px;
+}
+
+.doctor h2 {
+  color: white;
+  font-size: 40px;
+}
+.doctor p {
+  font-size: 22px;
+  color: white;
+}
+
+.doctor > select {
+  border: 0;
+  font-size: 24px;
+  font-weight: 100px;
+  background-color: royalblue;
+  text-decoration: underline;
+  color: white;
+}
+.clinic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: black;
+  padding: 50px 50px 30px 50px;
+  height: 400px;
+  width: 390px;
+  border-radius: 20px;
+}
+
+.clinic img {
+  height: 30px;
+}
+
+.clinic h2 {
+  color: white;
+  font-size: 40px;
+}
+.clinic p {
+  font-size: 22px;
+  color: white;
+}
+
+.clinic-dropdown > select {
+  border: 0;
+  font-size: 24px;
+  font-weight: 100px;
+  background-color: black;
+  text-decoration: underline;
+  color: white;
+}
+
+.images-flex {
+  display: flex;
+  justify-items: center;
+  gap: 100px;
+  margin-top: 25px;
+}
+
+.grid-wrapper {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.grid-wrapper img {
+  height: 20px;
+  width: 150px;
+}
+
+/* section 6 styling */
+.section-six {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+  background-color: #d0faf4;
+  gap: 200px;
+  padding-left: 50px;
+  width: 100%;
+}
+
+.section-six-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 100px;
+  gap: 50px;
+}
+
+.section-six-left h2 {
+  color: #00b39b;
+}
+.section-six-left p {
+  font-size: 22px;
+  color: #00b39b;
+}
